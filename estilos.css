@@ -1,0 +1,304 @@
+html,
+body {
+  background-color: #f7f7f7;
+  font-family: 'Roboto';
+}
+
+
+/* LOGO */
+
+header {
+  text-align: center;
+}
+
+
+/* END LOGO */
+
+
+/* NAV */
+
+ul a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  text-align: center;
+  background-color: #463028;
+  color: #fff;
+}
+
+ul.nav-list {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 15px;
+  font-size: 1.1em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+ul.nav-list li {
+  display: inline-block;
+  padding-right: 10px;
+  margin: 2px;
+  vertical-align: middle;
+}
+
+ul.nav-list li:last-child {
+  border-right: none;
+}
+
+
+/* END NAV */
+
+
+/* CARDAPIO */
+
+figure p {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.coffee-table {
+  margin: 0 auto;
+}
+
+.coffee-table td {
+  padding: 20px;
+  vertical-align: top;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.coffee-table th {
+  padding: 20px;
+}
+
+.coffee-table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.coffee-table tr:nth-child(even) {
+  background-color: #e1e1e1;
+}
+
+.coffee-table tr td>p:first-child {
+  font-weight: bolder;
+}
+
+.coffee-table caption {
+  font-size: 1.7em;
+  margin-bottom: 40px;
+  font-weight: bolder;
+  color: #bb8c7a;
+}
+
+tfoot td {
+  text-align: center;
+  font-weight: 400;
+  background-color: lightsalmon;
+}
+
+main>p {
+  font-size: 1.4em;
+  margin: 20px;
+  text-align: center;
+}
+
+
+/* END CARDAPIO*/
+
+
+/* INDEX */
+
+a {
+  color: #463028;
+  font-weight: bolder;
+}
+
+#onde-encontrar>section>h3 {
+  margin-bottom: 15px;
+}
+
+figure {
+  margin-left: 0;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+main>figure>img {
+  width: 100%;
+}
+
+main>figure>figcaption {
+  box-sizing: border-box;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 20px;
+  left: 45px;
+  background-color: rgba(70, 48, 40, 0.7);
+  padding: 40px 20px 20px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1em !important;
+  vertical-align: middle;
+  line-height: 1.3;
+}
+
+h1,
+h2 {
+  color: #630;
+  font-family: 'Roboto';
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.left-alignment {
+  text-align: left;
+}
+
+#container>header>h1 {
+  display: none;
+}
+
+main>h1,
+main>h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+footer {
+  border-top: 1px solid #c1c1c1;
+  padding-top: 20px;
+  margin-top: 20px;
+  clear: both;
+  text-align: right;
+  font-size: 0.8em;
+  color: #444444;
+}
+
+#container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+section#escolha-cafe,
+section#onde-encontrar {
+  float: left;
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+section#onde-encontrar>section,
+section#escolha-cafe>section {
+  float: right;
+}
+
+section>section:nth-child(1) {
+  width: 20%;
+}
+
+section>section:nth-child(2) {
+  width: 70%;
+}
+
+section#onde-encontrar {
+  margin-left: 3%;
+}
+
+section img {
+  margin-right: 6px;
+}
+
+
+/* END INDEX*/
+
+
+/* CONTATO */
+
+#contato h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+form input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type=text],
+input[type=email] {
+  display: inline-block;
+  width: 195px;
+  height: 23px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1em;
+  border: 1px solid #e1e1e1;
+}
+
+form>p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+input[type=submit] {
+  width: 100px;
+  height: 30px;
+  font-size: 1em;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #45b145;
+  border: none;
+}
+
+form {
+  margin: 30px;
+  padding: 20px;
+}
+
+textarea {
+  display: block;
+  width: 580px;
+  height: 150px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  border: 1px solid #e1e1e1;
+  padding: 15px;
+}
+
+section#contato {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  background-color: #e1e1e1;
+  border-radius: 5px;
+}
+
+
+/* END CONTATO */
+
+
+/* LOCAL*/
+
+#map {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+
+/* END LOCAL*/
+
+
+/*  EVENTOS  */
+
+.lorem-text {
+  text-align: justify;
+}
+
+
+/*  END EVENTOS  */

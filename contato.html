@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de contato do site do restaurante Kombi Coffe, com formulário para envio de Nome, E-mail e comentários, e navegação para outras páginas internas">
+
+    <title>Kombi Coffe | Contato</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="icon" href="./images/favicon.png" />
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Kombi Coffee</h1>
+            <figure>
+                <img alt="Kombi Coffe Logo" title="Kombi Coffe, o café para você" src="./images/logo_kombi_coffee.png">
+
+            </figure>
+
+        </header>
+        <nav>
+            <ul class='nav-list'>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="local.html">LOCAL</a>
+                </li>
+                <li>
+                    <a href="./cardapio.html">CARDÁPIO</a>
+                </li>
+                <li>
+                    <a href="./eventos.html">EVENTOS</a>
+                </li>
+                <li>
+                    <a href="./contato.html">CONTATO</a>
+                </li>
+
+            </ul>
+        </nav>
+        <main>
+            <section id="contato">
+                <h2>Contato</h2>
+                <form id="form-contato" action="#">
+                    <label for="nome">Insira seu nome: </label>
+                    <input id="nome" name="nome" type="text" required placeholder="João da Silva">
+
+                    <label for="email">E-mail: </label>
+                    <input id="email" name="email" type="email" required placeholder="example@domain.com">
+                    <p>Você tem algum comentário a fazer?</p>
+                    <textarea name="comentarios" required form="form-contato" placeholder="Diga-nos que você pensa"></textarea>
+                    <input type="submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright</p>
+        </footer>
+    </div>
+</body>
+
+</html>
